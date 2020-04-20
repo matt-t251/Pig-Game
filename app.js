@@ -41,7 +41,7 @@ function btnHold() {
         document.querySelector('#score-0').textContent = gameScore[0];
         document.querySelector('#score-1').textContent = gameScore[1];
         // if gamescore of active player is greater than 20 then declare winner.
-        if (gameScore[activePlayer] >= 10) {
+        if (gameScore[activePlayer] >= 100) {
             winnerfunc();
         } else {
             nextPlayer();
